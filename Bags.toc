@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: |cffff9e38Bags|r |cffffd6a8[Fostercare5988]|r
+## Notes: One window for your bags and one for the bank: search, sort, free space, quality borders, new-item glow, weapon poison badges and your other characters' bags
+## Author: Fostercare5988
+## X-Maintainer: Fostercare5988
+## Version: 1.0.0
+## SavedVariables: BagsStore
+## SavedVariablesPerCharacter: BagsDB
+## LoadSavedVariablesFirst: 1
+Store.lua
+Slots.lua
+BagBar.lua
+Window.lua
+Core.lua
