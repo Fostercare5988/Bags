@@ -66,7 +66,7 @@ local function Make(w)
         w.buy:SetText("Buy slot")
         w.buy:SetScript("OnClick", Buy)
         w.buy:SetScript("OnEnter", BuyTip)
-        w.buy:SetScript("OnLeave", OnLeave)
+        w.buy:SetScript("OnLeave", function() GameTooltip:Hide() end)
     end
 end
 
