@@ -27,4 +27,4 @@ jobs:
           if gh release view "v$version" > /dev/null 2>&1; then echo "v$version is out"; exit 0; fi
           zip="${folder#!}.zip"
           git archive --prefix="$folder/" -o "$zip" HEAD -- . ':(exclude).github' ':(exclude).gitignore' ':(exclude).gitattributes'
-          gh release create "v$version" "$zip" --target "$GITHUB_SHA" --title "$folder $version" --notes "Written new from scratch."
+          gh release create "v$version" "$zip" --target "$GITHUB_SHA" --title "$folder $version" --generate-notes
