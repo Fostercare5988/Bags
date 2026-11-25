@@ -3,7 +3,7 @@
 ## Notes: One window for your bags and one for the bank: search, sort, free space, quality borders, new-item glow, weapon poison badges and your other characters' bags
 ## Author: Fostercare5988
 ## X-Maintainer: Fostercare5988
-## Version: 1.0.0
+## Version: 1.0.1
 ## SavedVariables: BagsStore
 ## SavedVariablesPerCharacter: BagsDB
 ## LoadSavedVariablesFirst: 1
